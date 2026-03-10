@@ -1,5 +1,5 @@
-const API_BASE = "https://exam-scheduler-backend-88hb.onrender.com/api";
-
+import API_BASE_URL from '../config';
+const API_BASE = `${API_BASE_URL}/api`;
 const getAuthHeaders = () => ({
   "Content-Type": "application/json",
   Authorization: `Bearer ${localStorage.getItem("token")}`,
