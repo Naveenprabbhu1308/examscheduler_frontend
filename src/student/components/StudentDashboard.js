@@ -156,10 +156,9 @@ const StudentDashboard = () => {
             <div key={i} style={{
               padding: '14px', marginBottom: 10, borderRadius: 10,
               background: '#f8fafc', border: '1.5px solid #e2e8f0',
-              opacity: 0.7
             }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                <span style={{ fontWeight: 700, fontSize: 15 }}>📘 {e.subject}</span>
+<span style={{ fontWeight: 700, fontSize: 15, color: '#1e293b' }}>📘 {e.subject}</span>
                 <span className="dash-badge" style={{ background: '#f1f5f9', color: '#94a3b8' }}>Done</span>
               </div>
               <div style={{ display: 'flex', gap: 16, fontSize: 13, color: '#64748b' }}>
