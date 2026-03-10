@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #09090f;
+  --surface:   #111118;
+  --surface2:  #16161f;
+  --border:    #1f1f2e;
+  --border2:   #2a2a3d;
+  --gold:      #c9a84c;
+  --gold2:     #e8c96a;
+  --silver:    #a8b2c0;
+  --bronze:    #cd7f32;
+  --text:      #e8e0d4;
+  --text2:     #8888a0;
+  --text3:     #444460;
+  --success:   #4caf7d;
+  --danger:    #e05c5c;
+  --info:      #5c9ee0;
+  --radius:    12px;
+  --sidebar-w: 240px;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }

@@ -1,0 +1,7 @@
+/* Student page overrides — base styles in admin/components/Dashboard.css */
+.student-avatar {
+  width: 32px; height: 32px; border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  display: inline-flex; align-items: center; justify-content: center;
+  color: white; font-weight: 700; font-size: 13px; margin-right: 8px;
+}
