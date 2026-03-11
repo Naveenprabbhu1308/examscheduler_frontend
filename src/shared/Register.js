@@ -17,7 +17,7 @@ const Register = () => {
     setError('');
     setMsg('');
     try {
-const res = await fetch('https://exam-scheduler-backend-production.up.railway.app/api/auth/register', {
+      const res = await fetch('https://examscheduler-production-c7c6.up.railway.app/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form)
